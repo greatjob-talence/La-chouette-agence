@@ -1041,9 +1041,9 @@ h4 {
     }
 }
 
-
-/* rajout */ 
-
+/****************/
+/** CSS ajouté **/ 
+/****************/
 .keywords {
     color: #303030;
     font-size: 14px;
@@ -1052,4 +1052,24 @@ h4 {
 .commande {
     color: white!important;
     font-weight: bold;
+}
+
+#first-icon {
+    color: #303030;
+}
+
+#second-icon {
+    color: #303030;
+}
+
+#third-icon {
+    color: #303030;
+}
+
+#fourth-icon {
+    color: #303030;
+}
+
+#links {
+    color: #303030;
 }
