@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #303030!important;
 }
 
 .container {
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #303030;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 40px auto;
 }
 
 h2 {
@@ -780,12 +780,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #303030;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #303030;
 }
 
 .ltc-white {
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1040,3 +1040,41 @@ h4 {
         text-align: center;
     }
 }
+
+/****************/
+/** CSS ajouté **/ 
+/****************/
+.keywords {
+    color: #303030;
+    font-size: 14px;
+}
+
+.commande {
+    color: white!important;
+    font-weight: bold;
+}
+
+#first-icon {
+    color: #303030;
+}
+
+#second-icon {
+    color: #303030;
+}
+
+#third-icon {
+    color: #303030;
+}
+
+#fourth-icon {
+    color: #303030;
+}
+
+#links {
+    color: #303030;
+}
+/*
+.title1-accueil {
+    color: #303030;
+}
+*/
