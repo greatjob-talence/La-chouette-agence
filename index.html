@@ -31,7 +31,6 @@
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
 	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
 </head>
 
 <body>
@@ -43,7 +42,7 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Grand logo La chouette agence"/></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.jpg" alt="Grand logo La chouette agence"/></a>
 				<div class="keywords col-md-5 col-sm-4">Agence de communication web basé à Lyon. Site internet
 					sur mesure, amelioration du référencement. Générer du trafic et améliorer l'expérience utilisateur.</div>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -53,7 +52,7 @@
 			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 				<ul class="site-navigation nav navbar-nav">
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href="contact-agence.html" aria-label="accéder au formulaire de contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -67,12 +66,13 @@
 	<div class="container bloc-lg">
 		<div class="row tight-width-whitespace">
 			<div class="col-sm-12">
-				<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo la chouette agence" />
+				<img src="img/logo.jpg" class="center-block image-resize-mode" width="100" alt="Logo la chouette agence" />
 				<h1 class="text-center hero-bloc-text tc-white ">
 					La chouette agence.
 				</h1>
 				<div class="text-center">
-					<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+					<a href="contact-agence.html" aria-label="accéder au formulaire de contact" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" 
+					id="cta-hero">Contact</a>
 				</div>
 			</div>
 		</div>
@@ -88,7 +88,7 @@
 				<h2>La chouette agence est une entreprise de web design à Lyon, qui aide les entreprises à devenir attractives et visibles sur Internet.</h2>
 			</div>
 		</div>
-		<div class="row voffset-lg  med-width-whitespace">
+		<div class="row voffset-lg med-width-whitespace">
 			<div class="col-sm-4">
 				<div class="text-center">
 					<span class="et-icon-browser sm-shadow icon-dark-slate-blue icons icon-lg"></span>
@@ -129,7 +129,7 @@
 					<h2>La chouette agence est une excellente agence web ! Les web designers ont réussit à capturer l'essence de notre entreprise et à l'intégrer
 						à notre site. Cela nous a aidé à doubler nos ventes en ligne à Lyon.
 					</h2>
-					<footer>Maxime Guibard, <cite>PDG de À vos fourchettes</cite></footer>
+					<footer class="citation">Maxime Guibard, <cite>PDG de À vos fourchettes</cite></footer>
 				</blockquote>
 			</div>
 		</div>
@@ -150,7 +150,8 @@
 					Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locale, qu’elles aient besoin de créer un site de A à Z ou de 
 					donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas 
 					à nous contacter. Nous travaillerons ensemble pour créer des sites beau et bien structurés, qui seront facilement trouvable sur 
-					les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
+					les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact-agence.html">Contactez notre
+						équipe</a><br>
 				</p>
 			</div>
 		</div>
@@ -168,7 +169,7 @@
 		</div>
 		<article class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/livres.jpg" data-gallery-id="gallery-1"
+				<a href="#" data-lightbox="img/livres.jpg" data-gallery-id="gallery-1" aria-label="accéder à la photo de plusieurs livres"
 					data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
 					<img src="img/livres.jpg" alt="Plusieurs livres pour un site web journal" class="img-responsive portfolio-thumb" /></a>
 				<h3 class="mg-md text-center">
@@ -179,7 +180,8 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
+				<a href="#" data-lightbox="img/photographe.jpg" data-gallery-id="gallery-1" aria-label="accéder à la photo d'une photographe en action"
+				data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb">
 					<img src="img/photographe.jpg" class="img-responsive portfolio-thumb" alt="Photographie pour un site web de photographes" /></a>
 				<h3 class="mg-md text-center">
 					Création d'un site web pour photographes
@@ -191,7 +193,7 @@
 		</article>
 		<article class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/appareils-photo.jpg" data-gallery-id="gallery-1"
+				<a href="#" data-lightbox="img/appareils-photo.jpg" data-gallery-id="gallery-1" aria-label="accéder à la photo de materiel professionnel"
 					data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb">
 					<img src="img/appareils-photo.jpg" class="img-responsive portfolio-thumb" alt="Plusieurs appareils photo pour un site web pour voyageur"/></a>
 				<h3 class="mg-md text-center">
@@ -202,7 +204,7 @@
 				</p>
 			</div>
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/pc-bureau.jpg" data-gallery-id="gallery-1"
+				<a href="#" data-lightbox="img/pc-bureau.jpg" data-gallery-id="gallery-1" aria-label="accéder à la photo du bureau de travail"
 					data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb">
 					<img src="img/pc-bureau.jpg" class="img-responsive portfolio-thumb" alt="PC sur un bureau pour un site web d'agence de mariage" /></a>
 				<h3 class="mg-md text-center">
@@ -225,7 +227,7 @@
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
 			<div class="col-sm-12 text-center">
-				<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+				<a href="contact-agence.html" aria-label="accéder au formulaire de contact" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 			</div>
 		</div>
 	</div>
@@ -243,67 +245,65 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md" id="first-icon"></span></a>
+							<a class="social" href="https://twitter.com" target="_blank"><span class="fa fa-twitter icon-md"
+									aria-label="accéder au site web twitter" id="first-icon"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md" id="second-icon"></span></a>
+							<a class="social" href="https://www.facebook.com" target="_blank"><span class="fa fa-facebook icon-md"
+									aria-label="accéder au site web facebook" id="second-icon"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md" id="third-icon"></span></a>
+							<a class="social" href="https://dribbble.com" target="_blank"><span class="fa fa-dribbble icon-md"
+									aria-label="accéder au site web de dribbble" id="third-icon"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md" id="fourth-icon"></span></a>
+							<a class="social" href="https://www.instagram.com" target="_blank"><span class="fa fa-instagram icon-md"
+									aria-label="accéder au site web de instagram" id="fourth-icon"></span></a>
 						</div>
 					</div>
 				</div>
 				<div class="row" id="links">
 					<div class="col-sm-4">
-						<u>
-							<h4>Partenaires</h4>
-						</u>
-							<ul>
-								<li><a href="voiture.com" rel="nofollow">voiture.com</a></li>
-								<li><a href="pizza.com" rel="nofollow">pizza.com</a></li>
-								<li><a href="matoiture.com" rel="nofollow">matoiture.com</a></li>
-								<li><a href="immobilierseo.com" rel="nofollow">immobilierseo.com</a></li>
-							</ul>
-					</div>
-					<div class="col-sm-4">
-						<u>
-							<h4>Annuaires liste 1</h4>
-						</u>
+						<p class="listing">Partenaires</p>
 						<ul>
-							<li><a href="annuaireagence.com" rel="nofollow">annuaireagence.com</a></li>
-							<li><a href="annuaireseo.com" rel="nofollow">annuaireseo.com</a></li>
-							<li><a href="annuairemarketing.com" rel="nofollow">annuairemarketing.com</a></li>
-							<li><a href="123seoture.com" rel="nofollow">123seo.com</a></li>
-							<li><a href="123site.com" rel="nofollow">123site.com</a></li>
-							<li><a href="annuairewordpress.com" rel="nofollow">annuairewordpress.com</a></li>
-							<li><a href="listeagence.com" rel="nofollow">listeagence.com</a></li>
-							<li><a href="meilleuresagencesparis.com" rel="nofollow">meilleuresagencesparis.com</a></li>
-							<li><a href="listeseo.com" rel="nofollow">listeseo.com</a></li>
+							<li><a href="voiture.com" target="_blank" rel="nofollow">voiture.com</a></li>
+							<li><a href="pizza.com" target="_blank" rel="nofollow">pizza.com</a></li>
+							<li><a href="matoiture.com" target="_blank" rel="nofollow">matoiture.com</a></li>
+							<li><a href="immobilierseo.com" target="_blank" rel="nofollow">immobilierseo.com</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-4">
-						<u>
-							<h4>Annuaires liste 2</h4>
-						</u>
+						<p class="listing">Annuaires liste 1</p>
 						<ul>
-							<li><a href="betterseo.com" rel="nofollow">betterseo.com</a></li>
-							<li><a href="ameliorerseo.com" rel="nofollow">ameliorerseo.com</a></li>
-							<li><a href="seojuicelien.com" rel="nofollow">seojuicelien.com</a></li>
-							<li><a href="meilleursliens.com" rel="nofollow">meilleursliens.com</a></li>
-							<li><a href="liensagogo.com" rel="nofollow">liensagogo.com</a></li>
-							<li><a href="backlink.com" rel="nofollow">backlink.com</a></li>
-							<li><a href="linkjuiceannuaire.com" rel="nofollow">linkjuiceannuaire.com</a></li>
-							<li><a href="remontersurgoogle.com" rel="nofollow">remontersurgoogle.com</a></li>
-							<li><a href="vraiseofiable.com" rel="nofollow">vraiseofiable.com</a></li>
+							<li><a href="annuaireagence.com" target="_blank" rel="nofollow">annuaireagence.com</a></li>
+							<li><a href="annuaireseo.com" target="_blank" rel="nofollow">annuaireseo.com</a></li>
+							<li><a href="annuairemarketing.com" target="_blank" rel="nofollow">annuairemarketing.com</a></li>
+							<li><a href="123seoture.com" target="_blank" rel="nofollow">123seo.com</a></li>
+							<li><a href="123site.com" target="_blank" rel="nofollow">123site.com</a></li>
+							<li><a href="annuairewordpress.com" target="_blank" rel="nofollow">annuairewordpress.com</a></li>
+							<li><a href="listeagence.com" target="_blank" rel="nofollow">listeagence.com</a></li>
+							<li><a href="meilleuresagencesparis.com" target="_blank" rel="nofollow">meilleuresagencesparis.com</a></li>
+							<li><a href="listeseo.com" target="_blank" rel="nofollow">listeseo.com</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<p class="listing">Annuaires liste 2</p>
+						<ul>
+							<li><a href="betterseo.com" target="_blank" rel="nofollow">betterseo.com</a></li>
+							<li><a href="ameliorerseo.com" target="_blank" rel="nofollow">ameliorerseo.com</a></li>
+							<li><a href="seojuicelien.com" target="_blank" rel="nofollow">seojuicelien.com</a></li>
+							<li><a href="meilleursliens.com" target="_blank" rel="nofollow">meilleursliens.com</a></li>
+							<li><a href="liensagogo.com" target="_blank" rel="nofollow">liensagogo.com</a></li>
+							<li><a href="backlink.com" target="_blank" rel="nofollow">backlink.com</a></li>
+							<li><a href="linkjuiceannuaire.com" target="_blank" rel="nofollow">linkjuiceannuaire.com</a></li>
+							<li><a href="remontersurgoogle.com" target="_blank" rel="nofollow">remontersurgoogle.com</a></li>
+							<li><a href="vraiseofiable.com" target="_blank" rel="nofollow">vraiseofiable.com</a></li>
 						</ul>
 					</div>
 				</div>
