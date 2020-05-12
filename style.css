@@ -1073,8 +1073,18 @@ h4 {
 #links {
     color: #303030;
 }
-/*
-.title1-accueil {
-    color: #303030;
+
+.citation {
+    color: #000000;
+    font-weight: bold;
 }
-*/
+
+.listing {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.adresse-horaire {
+    font-size: 1.1rem;
+}
+
